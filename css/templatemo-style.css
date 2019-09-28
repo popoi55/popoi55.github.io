@@ -1,0 +1,162 @@
+
+<style type="text/css">
+body {
+    overflow-x:hidden;
+}
+</style>    
+.p{
+    	font-family: 'Raleway', sans-serif;
+    text-align: center
+}
+body {
+	color: #ffffff ;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	overflow-x: hidden;
+}
+
+a, button { transition: all 0.3s ease; }
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+h2 { font-size: 2.2rem; }
+.tm-thin-font { font-weight: 300; }
+
+.container-fluid {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1390px;
+	overflow-x: hidden;
+}
+
+.spotify{
+      position:fixed;
+  bottom: 5%;
+  right: -30%;
+  width: auto;
+}
+
+.tm-main-nav { font-size: 1.2rem; }
+
+.navbar-nav .nav-link {
+	border-radius: 6px;
+	color: black;
+	padding: 10px 40px;
+}
+
+
+}
+
+.tm-section {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.tm-home-img-container {
+	background-image: url('../img/background.png');
+	background-size: fill;
+	background-attachment: fixed;
+	background-repeat: repeat;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10
+        
+}
+.bg {
+	background-image: url('../img/backg.png');
+	background-size: fill;
+	background-attachment: fixed;
+	background-repeat: repeat;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -10
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+.demon {
+    position:absolute;
+  bottom: -50%;
+  right: -200%;
+  width: 100%;
+    height: auto%;
+    animation: float 4s ease-in-out infinite; 
+        
+
+}
+
+.portrait {
+    position:absolute;
+  bottom: 10%;
+  right: 0%;
+    height: auto;
+  width: 100%;
+    padding-right: 20%;
+    text-align: justify
+
+}
+.back {
+     position:absolute;
+  bottom: 20%;
+  right: 0%;
+  width: auto;
+}
+.news {
+     position:absolute;
+  bottom: 40%;
+  right: 70%;
+  width: auto;
+        animation: float 13s ease-in-out infinite; 
+}
+.latestrelease {
+        position:absolute;
+    z-index: 3;
+    bottom: 2%;
+  right: 84%;
+ 
+    
+}
+.sun {
+    position: absolute;
+    bottom: 0%;
+    right: 18%;
+    z-index: -9
+}
+.discography {
+       position:absolute;
+  bottom: 20%;
+  right: -200%;
+  width: auto;
+        animation: float 20s ease-in-out infinite;
+}
+.logo{
+    position: absolute;
+    z-index: 12;
+}
+.albuminfo{
+    margin-bottom: 0.3%;
+}
+        
+}
